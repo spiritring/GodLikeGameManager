@@ -3,5 +3,22 @@
     <FilePathData Path="MainScene.csd" />
   </OpenedDocuments>
   <ActiveDocument Path="MainScene.csd" />
-  <Properties />
+  <Properties>
+    <Item Key="PackageParamsKey">
+      <Value ctype="PackageParams">
+        <LuaIsEncrypt Value="False" />
+        <LuaEncryptKey Value="" />
+        <LuaEncryptSign Value="" />
+        <Android_PackageName Value="org.cocos.GodLikeGameManager" />
+        <AndroidkeyStore Value="" />
+        <AndroidVersion Value="" />
+        <iOS_Target Value="GodLikeGameManager iOS" />
+        <iOS_BundleID Value="iOS Development: Peng Wang (DK38FFHN5C)" />
+        <Platform Value="Android" />
+        <PublishSetting Value="Resource" />
+        <FrameworkVersion Value="cocos2d-x-3.4" />
+        <IsDebugKeystore Value="True" />
+      </Value>
+    </Item>
+  </Properties>
 </UserData>

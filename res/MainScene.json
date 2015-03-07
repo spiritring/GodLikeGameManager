@@ -1,7 +1,6 @@
 {
   "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
-  "Version": "2.1.0.0",
-  "Type": "Scene",
+  "Version": "2.1.5.0",
   "Name": "MainScene",
   "Content": {
     "Content": {
@@ -26,39 +25,39 @@
         "Children": [
           {
             "FileData": {
-              "Type": "Normal",
-              "Path": "HelloWorld.png"
+              "Type": "Default",
+              "Path": "Default/DemoPlayer.ExportJson"
             },
-            "Tag": 5,
+            "IsLoop": true,
+            "IsAutoPlay": true,
+            "CurrentAnimationName": "walk",
+            "Tag": 4,
             "PrePosition": {
-              "X": 0.5,
-              "Y": 0.5
+              "X": 0.0,
+              "Y": 0.0
             },
             "PreSize": {
               "X": 0.0,
               "Y": 0.0
             },
-            "ActionTag": 953446860,
+            "ActionTag": -78129088,
             "Position": {
-              "X": 480.0,
-              "Y": 320.0
+              "X": 463.391968,
+              "Y": 350.2852
             },
             "Scale": {
               "ScaleX": 1.0,
               "ScaleY": 1.0
             },
-            "AnchorPoint": {
-              "ScaleX": 0.5,
-              "ScaleY": 0.5
-            },
+            "AnchorPoint": {},
             "CColor": {},
             "Size": {
-              "X": 960.0,
-              "Y": 640.0
+              "X": 0.0,
+              "Y": 0.0
             },
             "FrameEvent": "",
-            "Name": "Default",
-            "ctype": "SpriteObjectData"
+            "Name": "ArmatureNode_1",
+            "ctype": "ArmatureNodeObjectData"
           }
         ],
         "Position": {
@@ -81,5 +80,6 @@
       },
       "ctype": "GameProjectData"
     }
-  }
+  },
+  "Type": "Scene"
 }
